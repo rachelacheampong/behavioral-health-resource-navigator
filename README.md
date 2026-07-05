@@ -1,6 +1,23 @@
-# Behavioral Health Resource Navigator
+# 🧠 Behavioral Health Resource Navigator
 
-An AI-powered decision-support tool that helps Behavioral Health Bureau staff quickly locate trusted community resources, compare services, and generate consistent referral summaries—allowing them to spend less time searching and more time helping clients.
+![Status](https://img.shields.io/badge/status-In%20Development-blue)
+![AI](https://img.shields.io/badge/AI-Claude-orange)
+![Public%20Health](https://img.shields.io/badge/Public%20Health-Behavioral%20Health-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+> **An AI-powered decision-support tool that helps Behavioral Health Bureau staff quickly locate trusted community resources and generate consistent referral summaries.**
+
+🚧 **Status:** In Development  
+🎯 **Focus:** AI for Public Health | Behavioral Health | Decision Support  
+👩🏾‍💻 **Author:** Rachel Acheampong
+
+---
+
+## Overview
+
+The Behavioral Health Resource Navigator is designed to help Behavioral Health Bureau staff quickly find relevant community resources using natural language instead of manually searching through PDFs, websites, and resource guides.
+
+By reducing search time and standardizing referral information, staff can spend more time supporting clients and less time navigating documentation.
 
 ---
 
@@ -21,6 +38,14 @@ Instead of manually searching through documents, staff can ask questions like:
 > "Find outpatient mental health services for adults that don't require insurance."
 
 The assistant retrieves relevant resources and presents them in a clear, structured format.
+
+---
+
+## Intended Users
+
+- Linkage to Care
+- Education & Training
+- Criminal Justice, Policy & Crisis Response
 
 ---
 
@@ -45,53 +70,23 @@ The assistant retrieves relevant resources and presents them in a clear, structu
 
 ---
 
-## Intended Users
+## Example Questions
 
-- Linkage to Care
-- Education & Training
-- Criminal Justice, Policy & Crisis Response
-
----
-
-## Project Status
-
-🚧 In Development
-
-This project is currently being designed as part of my exploration into AI-powered public service tools.
+- Find free outpatient mental health services for adults.
+- What substance use treatment programs do not require insurance?
+- Compare Program A and Program B.
+- Generate a referral summary for this client.
+- Find behavioral health services near downtown St. Louis.
 
 ---
 
-## Tech Stack (Planned)
+## System Architecture
 
-- Claude AI
-- Python
-- Streamlit
-- Vector Search
-- GitHub
-- Markdown
-
----
-
-## Project Goals
-
-- Reduce resource lookup time
-- Improve consistency of referrals
-- Support non-technical staff
-- Improve client experience
-- Increase efficiency across the Behavioral Health Bureau
-
----
-
-## Why I Built This
-
-Working in public health, I've seen firsthand how much time staff spend searching for community resources while assisting clients.
-
-This project aims to reduce that burden by making trusted behavioral health resources instantly searchable through AI, allowing staff to focus more on helping people and less on navigating documents.
-
----
-
-## Future Development
-
-This project will continue evolving as I learn more about AI application development and gather feedback from behavioral health professionals.
-
-Contributions and ideas are welcome.
+```mermaid
+flowchart TD
+    A[Behavioral Health Staff] --> B[Ask a Question]
+    B --> C[AI Resource Navigator]
+    C --> D[Behavioral Health Resource Guide]
+    D --> C
+    C --> E[Relevant Resources]
+    C --> F[Referral Summary]
